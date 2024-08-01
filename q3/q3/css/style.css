@@ -1,1 +1,31 @@
 @charset "UTF-8";
+.cell--table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+th {
+  border: 1px solid #000000;
+  padding:10px;
+  font-size: 18px;
+  line-height: 22px;
+
+}
+tr:last-child {
+  border-top: 1px double rgb(255, 255, 255);
+}
+tr:nth-child(1) {
+  background-color: #319c4a;
+  line-height: 26px;
+
+}
+th:nth-child(1) {
+  background-color: #319c4a;
+  line-height: 26px;
+}
+.kisu- {
+  background-color: #d5ffc7;
+}
+.gu-su- {
+  background-color: #bcbcbc;
+}

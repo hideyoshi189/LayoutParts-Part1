@@ -1,1 +1,48 @@
 @charset "UTF-8";
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.gyou {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+}
+.kotei1 {
+  background-color: #ff7b7b;
+  width: 300px;
+  padding: 20px;
+}
+.kotei2 {
+  background-color: #fff27b;
+  width: 300px;
+  padding: 20px;
+}
+.kotei3 {
+  background-color: #ff7be2;
+  width: 400px;
+  padding: 20px;
+}
+.kotei4 {
+  background-color: #ffc67b;
+  width: 400px;
+  padding: 20px;
+}
+.kahen1 {
+  background-color: #7b86ff;
+  flex-grow: 1;
+  padding: 20px;
+}
+.kahen2 {
+  background-color: #7bff91;
+  flex-grow: 1;
+  padding: 20px;
+}
+.kahen3 {
+  background-color: #7bf2ff;
+  flex-grow: 1;
+  padding: 20px;
+}

@@ -1,1 +1,145 @@
 @charset "UTF-8";
+.flexbox {
+  display: flex;
+  flex-direction: column;
+}
+.gyou1 {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+}
+.line5-1 {
+  width: 65px;
+  padding: 10px;
+  background-color: #00bbdd;
+  margin: 10px;
+  color: #fff;
+}
+.gyou2 {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: center;
+}
+.gyou3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.gyou4 {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+.gyou5 {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+}
+.gyou6 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.gyou7 {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap-reverse;
+  text-align: center;
+}
+.gyou8 {
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+}
+.gyou9 {
+  display: flex;
+  justify-content: right;
+  text-align: center;
+}
+.gyou10 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.gyou11 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.gyou12 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.grid-container1 {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.item-1 {
+  padding: 10px;
+  background-color: #00bbdd;
+  color: #fff;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 200px 200px;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.grid-container4 {
+  display: grid;
+  grid-template-areas:
+    "area1 area1 area2"
+    "area3 area4 area4"
+    "area3 area5 area6";
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  gap: 10px;
+}
+.item-a {
+  grid-area: area1;
+  background-color: #dd0700;
+  color: #fff;
+  padding: 10px;
+}
+.item-b {
+  grid-area: area2;
+  background-color: #00bbdd;
+  color: #fff;
+  padding: 10px;
+}
+.item-c {
+  grid-area: area3;
+  background-color: #0bdd00;
+  color: #fff;
+  padding: 10px;
+}
+.item-d {
+  grid-area: area4;
+  background-color: #d9dd00;
+  color: #fff;
+  padding: 10px;
+}
+.item-e {
+  grid-area: area5;
+  background-color: #00bbdd;
+  color: #fff;
+  padding: 10px;
+}
+.item-f {
+  grid-area: area6;
+  background-color: #00bbdd;
+  color: #fff;
+  padding: 10px;
+}
